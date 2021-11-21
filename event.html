@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
     <title>Ferme urbaine de la ville Oger</title>
   </head>
-  <body>
+  <body class="container">
     <header>
       <h1 class="text-center p-5">LA VILLE OGER</h1>
       <h2 class="font-italic text-center pb-3">
@@ -35,7 +35,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link active" href="#">Accueil</a>
+            <a class="nav-link" href="index.html">Accueil</a>
           </li>
           <li class="nav-item dropdown">
             <a
@@ -70,12 +70,120 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Evenements</a>
+            <a class="nav-link active" href="#">Evenements</a>
           </li>
           <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
         </ul>
       </div>
     </nav>
+    <h2 class="bg-light m-0">Les évenements à venir :</h2>
+    <main
+      class="
+        row row-cols-1 row-cols-sm-2 row-cols-md-3
+        justify-content-center
+        text-center
+        bg-light
+        m-0
+      "
+    >
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/batiment.jpg" class="card-img-top" alt="Image-1" />
+          <div class="card-body">
+            <h5 class="card-title bg-primary text-light p-3">
+              Rencontre avec les habitants
+            </h5>
+            <p class="card-text">
+              Retrouvons nous autour d'un verre de cidre ou de jus de pomme pour
+              faire plus ample connaissance. Tous les habitants du quartier sont
+              les bienvenues
+            </p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">+ d'infos..</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/enfants.JPG" class="card-img-top" alt="Image-2" />
+          <div class="card-body">
+            <h5 class="card-title bg-primary text-light p-3">Spectacles</h5>
+            <p class="card-text">
+              Avec les beaux jours, venez assister aux spectacles dans la cour.
+              Spectacles familiaux : pour les petits et les grands
+            </p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">+ d'infos..</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/api.jpg" class="card-img-top" alt="Image-3" />
+          <div class="card-body">
+            <h5 class="card-title bg-primary text-light p-3">Les animaux</h5>
+            <p class="card-text">
+              Tout au long de l'année, avec le centre de loisirs, vos enfants
+              prennent part à toutes les tâches liées aux animaux de la ferme.
+            </p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">+ d'infos..</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/fetePomme.jpg" class="card-img-top" alt="Image-4" />
+          <div class="card-body">
+            <h5 class="card-title bg-primary text-light p-3">
+              Fête de la pomme et du cidre
+            </h5>
+            <p class="card-text">
+              Sans doute l'évenement de l'année : un tas d'animations autour de
+              la pomme. Venez avec nous fêter ce fruit dont nous sommes si fier
+            </p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">+ d'infos..</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/legumes.jpg" class="card-img-top" alt="Image-6" />
+          <div class="card-body">
+            <h5 class="card-title bg-primary text-light p-3">Potagers</h5>
+            <p class="card-text">
+              La permaculture vous interesse. C'est ici que ça se passe! Toutes
+              les infos que vous aurez besoin.
+            </p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">+ d'infos..</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/oies.jpg" class="card-img-top" alt="Image-5" />
+          <div class="card-body">
+            <h5 class="card-title bg-primary text-light p-3">
+              Visite en famille
+            </h5>
+            <p class="card-text">
+              Entre les ballades, les animations et la cuisine, il y en a pour
+              tous les goûts.
+            </p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">+ d'infos..</a>
+          </div>
+        </div>
+      </div>
+    </main>
     <footer
       class="d-flex flex-column align-items-center bg-dark text-light rounded"
     >
