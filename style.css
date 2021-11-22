@@ -4,9 +4,22 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
+header {
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgb(233, 215, 112),
+    transparent
+  );
+  opacity: 0.8;
+}
+h1,
+h2 {
+  color: black;
+}
 .picture {
   margin-right: 1%;
 }
 .logo {
-  max-width: 100px;
+  max-width: 50px;
 }
