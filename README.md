@@ -71,3 +71,12 @@ Concernant la mise en dépot Github
 
 - Les cours Studi Git/Github
 - Les cours Grafikart sur Git
+
+Tous les fichiers ont été réalisés avec Visual Studio Code.
+
+Toutes les photos présentent sur le site, appartiennent à la ferme urbaine de la Ville Oger.
+
+## Mise en ligne
+
+Le site est accessible via le lien :
+https://erekhose35.github.io/eval1/
